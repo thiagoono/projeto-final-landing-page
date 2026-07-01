@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Livro Novo de Novo</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Livro Novo de Novo</h1>
+
+        <nav>
+            <a>Benefícios</a>
+            <a>Como funciona</a>
+            <a>Recursos</a>
+            <a>Depoimentos</a>
+            <a>Planos</a>
+        </nav>
+
+        <div>
+            <button type="button" id="botao-busca">
+                <img src="ícones/procurar.svg" height="15px">
+            </button>
+            <button type="button" id="botao-assinar" class="botao-verde">Assinar Agora</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero-section">
+            <section id="introducao">
+                <aside id="acesso-premium"><img src="ícones/stars.png" height="15px"> Acesso Premium Exclusivo</aside>
+
+                <h2>Transforme a forma como você encontra, escolhe e descobre livros usados</h2>
+
+                <p>Tenha acesso a recomendações inteligentes, avaliações, confiáveis ferramentas exclusivas para encontrar exatamente o que deseja ler.</p>
+
+                <div id="botoes">
+                    <button type="button" class="botao-verde" id="botao-comecar">Começar agora</button>
+                    <button type="button" class="botao-branco" id="botao-beneficios">Ver benefícios</button>
+                </div>
+
+                <footer id="footer-introducao">
+                    <div>
+                        <img src="ícones/check.png" height="20px">
+                        <p>
+                            Cancelamento a qualquer momento
+                        </p>
+                    </div>
+
+                    <div>
+                        <img src="ícones/check.png" height="20px">
+                        <p>
+                            Recomendações personalizadas
+                        </p>
+                    </div>
+
+                    <div>
+                        <img src="ícones/check.png" height="20px">
+                        <p>
+                            Comunidade ativa
+                        </p>
+                    </div>
+                </footer>
+            </section>
+
+            <section id="leitura-recomendada">
+                <div>
+                    <img src="imagens/livro.png" style="border-radius: 20px;">
+                    <aside id="porcentagem-match">
+                        <strong>95%</strong>
+                        match
+                    </aside>
+                </div>
+                
+                <aside id="leitura-sugerida-rating">
+                    <h4>Leitura sugerida:</h4>
+
+                    <p>"Uma obra-prima da literatura russa, perfeita para quem amou Dostoievski."</p>
+
+                    <div>
+                        <img src="ícones/star.png" height="12px">
+                        <img src="ícones/star.png" height="12px">
+                        <img src="ícones/star.png" height="12px">
+                        <img src="ícones/star.png" height="12px">
+                        <img src="ícones/star.png" height="12px">
+                    </div>
+                </aside>
+            </section>
+        </section>
+
+        <section id="diferenciais">
+            <h2>
+                A melhor experiência para bibliófilos
+            </h2>
+            <p>
+                Transformamos a garimpagem de livros em uma jornada tecnológica e aconchegante.
+            </p>
+            
+            <section id="cards-container">
+                <section class="card">
+                    <img src="ícones/processo-cerebral.png" height="30px">
+
+                    <h3>Descobertas Inteligentes</h3>
+                    <p>Nosso algoritmo analisa seu gosto literário para sugerir pérolas escondidas em nosso catálogo de usados.</p>
+                </section>
+
+                <section class="card">
+                    <img src="ícones/seguranca.png" height="30px">
+
+                    <h3>Escolhas Mais Seguras</h3>
+                    <p>Avaliações detalhadas do estado físico de cada livro, com fotos reais e certificação de qualidade.</p>
+                </section>
+
+                <section class="card">
+                    <img src="ícones/livro.png" height="30px">
+
+                    <h3>Leia Antes de Decidir</h3>
+                    <p>Acesse prévias digitais de alta resolução para folhear os capítulos iniciais antes da compra física.</p>
+                </section>
+
+                <section class="card">
+                    <img src="ícones/cofrinho.png" height="30px">
+
+                    <h3>Economize Mais</h3>
+                    <p>Descontos exclusivos e frete fixo reduzido para assinantes em toda a plataforma.</p>
+                </section>
+
+                <section class="card">
+                    <img src="ícones/engrenagem.png" height="30px">
+
+                    <h3>Experiência Personalizada</h3>
+                    <p>Sua estante virtual organizada com filtros avançados e alertas de disponibilidade para sua wishlist.</p>
+                </section>
+
+                <section class="card">
+                    <img src="ícones/grupo.png" height="30px">
+
+                    <h3>Comunidade de Leitores</h3>
+                    <p>Troque experiências, resenhas e participe de clubes de leitura exclusivos para membros.</p>
+                </section>
+            </section>
+        </section>
+
+        <section id="filtros">
+            <section id="previa-site">
+                <div style="height: 100%; width: 100%; background-color: #fbf9f6; border-radius: 15px; overflow: hidden;">
+                    <div style="background-color: #001f0f; width: 100%; height: 50px; padding: 10px; display: flex; align-items: center; padding: 10px;">
+                        <div style="background-color: #ff1352; height: 12px; width: 12px; border-radius: 6px; margin-right: 5px;"></div>
+                        <div style="background-color: #ffc734; height: 12px; width: 12px; border-radius: 6px; margin-right: 5px;"></div>
+                        <div style="background-color: #00e64b; height: 12px; width: 12px; border-radius: 6px; margin-right: 15px;"></div>
+                        <div style="background-color: #324b3d; height: 20px; flex: 1; border-radius: 5px;"></div>
+                    </div>
+
+                    <div>
+                        <div style="margin: 20px; background-color: #fbf9f6; display: flex; justify-content: space-between; border-bottom: solid 1px rgb(188, 188, 188); padding-bottom: 10px;">
+                            <span style="font-weight: bold;">Busca inteligente</span>
+
+                            <img src="ícones/settings.png" height="30px" width="20px">
+                        </div>
+
+                        <div style="display: grid; grid-template-columns: 1fr 1fr; padding: 20px; column-gap: 10px; row-gap: 10px;">
+                            <div style="background-color: #edece8; height: 120px; border-radius: 5px;"></div>
+                            <div style="background-color: #edece8; height: 120px; border-radius: 5px;"></div>
+                            <div style="background-color: #edece8; height: 120px; border-radius: 5px;"></div>
+                            <div style="background-color: #edece8; height: 120px; border-radius: 5px;"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="filtros-info">
+                <h2>Filtros avançados que entendem sua alma.</h2>
+
+                <p>
+                    Não busque apenas por título. Filtre por "vibe", época histórica, estado de conservação específico ou até pelo cheiro de livro antigo (sim, nós catalogamos isso!).
+                </p>
+
+                <ul style="list-style-type: none;">
+                    <li>
+                        <img src="ícones/verifica.png" height="20px">
+                        Mapeamento de 250+ subgêneros
+                    </li>
+
+                    <li>
+                        <img src="ícones/verifica.png" height="20px">
+                        Filtro por raridade e edições de colecionador
+                    </li>
+
+                    <li>
+                        <img src="ícones/verifica.png" height="20px">
+                        Busca por "Estado do Livro" com galeria 4K
+                    </li>
+                </ul>
+            </section>
+        </section>
+        
+        <section id="descubra">
+            <h2>Descubra livros que parecem feitos para você.</h2>
+            <p>Nossa inteligência artificial não olha apenas o que você comprou, mas o que você sentiu ao ler.</p>
+
+            <section id="match">
+                <section id="livro-favoritado">
+                    <div>
+                        <img src="ícones/coracao.png" height="35px">
+                    </div>
+
+                    <p>
+                        Você favoritou "O Alquimista"
+                    </p>
+                </section>
+
+                <img src="ícones/seta-direita.png" width="40px">
+
+                <section id="livro-encontrado">
+                    <img src="imagens/livro-encontrado.png" height="100%" width="100%">
+
+                    <aside>95% match</aside>
+                </section>
+
+                <img src="ícones/seta-direita.png" width="40px">
+
+                <section id="adicionar">
+                    <button type="button">
+                        Adicionar a estante
+                    </button>
+                    <p>
+                        Recomendação única gerada agora
+                    </p>
+                </section>
+            </section>
+        </section>
+
+        <section id="leitura-antecipada">
+            <section id="leitura-antecipada-info">
+                <h2>
+                    Leia antes de comprar. Digitalmente.
+                </h2>
+                <p>
+                    Nada de surpresas. Como assinante, você pode visualizar as primeiras 50 páginas de qualquer livro em nossa plataforma com um leitor digital de alta fidelidade.
+                </p>
+                <footer id="ferramentas-leitura-antecipada">
+                    <section id="zoom">
+                        <div>
+                            <img src="ícones/zoom.png" height="20px">
+                        </div>
+
+                        Zoom HD
+                    </section>
+
+                    <section id="tela-cheia">
+                        <div>
+                            <img src="ícones/expandir.png" height="20px">
+                        </div>
+
+                        Tela Cheia
+                    </section>
+
+                    <section id="folhear">
+                        <div>
+                            <img src="ícones/abra-o-livro.png" height="20px">
+                        </div>
+
+                        Folhear
+                    </section>
+                </aside>
+            </section>
+
+            <section id="previa-livro">
+                <div style="background-color: white; height: 80%; width: 100%; border-top-right-radius: 5px; border-top-left-radius: 5px; display: flex; padding: 50px 50px 10px 50px; font-size: 0.6em;">
+                    <div style="width: 200px; padding-right: 50px; border-right: solid 1px #ccc;">
+                        Capítulo 1. Era uma vez em uma terra distante, onde os livros não eram apenas objetos de papel, mas portais para universos que pulsavam no ritmo do coração de quem os lia...
+                    </div>
+
+                    <div style="width: 200px; padding-left: 50px;">
+                        ...as estantes sussurravam segredos ao cair da noite, e cada página virada era um passo em direção ao desconhecido.
+                    </div>
+                </div>
+
+                <div style="background-color: white; height: 20%; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; display: flex; justify-content: center;">
+                    <button type="button" style="height: 36px; width: 36px; background-color: #333333; border-radius: 18px; margin-right: 10px; color: white; font-size: 1.2em; text-align: center; padding-bottom: 5px;">&lt;</button>
+
+                    <button type="button" style="height: 36px; width: 36px; background-color: #333333; border-radius: 18px; margin-left: 10px; color: white; font-size: 1.2em; text-align: center; padding-bottom: 5px;">&gt;</button>
+                </div>
+            </section>
+        </section>
+
+        <section id="avaliacoes">
+            <header>
+                <section id="titulo-avaliacoes">
+                    <h2>Aprovado por quem ama ler</h2>
+                    <p>Junte-se a mais de 50.000 leitores apaixonados.</p>
+                </section>
+                
+                <section id="resultados">
+                    <section>
+                        <strong>+50K</strong>Leitores
+                    </section>
+
+                    <section>
+                        <strong>98%</strong>Satisfação
+                    </section>
+                </section>
+            </header>
+            
+            <section id="avaliacoes-container">                
+                <section class="avaliacao">
+                    <section class="usuario">
+                        <img src="imagens/perfil1.png" height="46px" width="46px">
+
+                        <div>
+                            <p class="nome-usuario">Mariana S.</p>
+                            <p class="tempo-usuario">Assinante há 1 ano</p>
+                        </div>
+                    </section>
+
+                    <p class="comentario">
+                        "A precisão do algoritmo é assustadora. Já encontrei livros que eu nem sabia que precisava ler, mas que se tornaram meus favoritos."
+                    </p>
+                </section>
+
+                <section class="avaliacao">
+                    <section class="usuario">
+                        <img src="imagens/perfil2.png" height="46px" width="46px">
+
+                        <div>
+                            <p class="nome-usuario">Ricardo F.</p>
+                            <p class="tempo-usuario">Assinante há 6 meses</p>
+                        </div>
+                    </section>
+
+                    <p class="comentario">
+                        "Poder ver as páginas do livro antes de comprar os usados me deu a segurança que faltava para investir em edições mais raras."
+                    </p>
+                </section>
+
+                <section class="avaliacao">
+                    <section class="usuario">
+                        <img src="imagens/perfil3.png" height="46px" width="46px">
+
+                        <div>
+                            <p class="nome-usuario">Beatriz M.</p>
+                            <p class="tempo-usuario">Assinante há 2 anos</p>
+                        </div>
+                    </section>
+
+                    <p class="comentario">
+                        "O clube de leitura premium é incrível. As discussões são profundas e o material de apoio é sempre impecável."
+                    </p>
+                </section>
+            </section>
+        </section>
+
+        <section id="assinatura">
+            <h2>Escolha sua jornada literária</h2>
+            <p>Planos flexíveis para cada tipo de leitor</p>
+
+            <section id="planos">
+                <section class="plano plano-padrao">
+                    <h3>Mensal</h3>
+                    <p>
+                        <strong>R$ 29</strong>/mês
+                    </p>
+
+                    <ul style="list-style-type: none;">
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-preto.png" height="13px" width="13px">
+                            Recomendações IA
+                        </li>
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-preto.png" height="13px" width="13px">
+                            Prévia Digital &#40;20pgs&#41;
+                        </li>
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-preto.png" height="13px" width="13px">
+                            Descontos de 5%
+                        </li>
+                        <li class="excluso">
+                            <img src="ícones/x.png" height="13px" width="13px">
+                            Frete Fixo Reduzido
+                        </li>
+                    </ul>
+
+                    <button type="button">Assinar agora</button>
+                </section>
+
+                <section class="plano plano-recomendado">
+                    <aside>MAIS POPULAR</aside>
+
+                    <h3>Anual</h3>
+                    <p>
+                        <strong>R$ 19</strong>/mês
+                    </p>
+
+                    <p id="custo-anual">
+                        *Cobrado anualmente &#40;R$ 228&#41;
+                    </p>
+
+                    <ul style="list-style-type: none;">
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-branco.png" height="13px" width="13px">
+                            Recomendações Prioritárias
+                        </li>
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-branco.png" height="13px" width="13px">
+                            Prévia Digital Completa
+                        </li>
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-branco.png" height="13px" width="13px">
+                            Descontos de 15%
+                        </li>
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-branco.png" height="13px" width="13px">
+                            Frete Fixo de R$ 9,90
+                        </li>
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-branco.png" height="13px" width="13px">
+                            Alerta de Wishlist Instantâneo
+                        </li>
+                    </ul>
+
+                    <button type="button" class="botao-verde">Assinar agora</button>
+                </section>
+
+                <section class="plano plano-padrao">
+                    <h3>Família</h3>
+                    <p>
+                        <strong>R$ 59</strong>/mês
+                    </p>
+
+                    <ul style="list-style-type: none;">
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-preto.png" height="13px" width="13px">
+                            Até 4 perfis individuais
+                        </li>
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-preto.png" height="13px" width="13px">
+                            Tudo do plano anual
+                        </li>
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-preto.png" height="13px" width="13px">
+                            Controle dos Pais
+                        </li>
+                        <li class="incluso">
+                            <img src="ícones/marca-de-verificacao-contorno-preto.png" height="13px" width="13px">
+                            Troca Grátis &#40;2/mês&#41;
+                        </li>
+                    </ul>
+
+                    <button type="button">Assinar agora</button>
+                </section>
+            </section>
+        </section>
+
+        <section id="perguntas-frequentes">
+            <h2>Perguntas Frequentes</h2>
+
+            <section id="perguntas">
+                <details>
+                    <summary>Como funciona o cancelamento</summary>
+                    <p>
+                        Você pode cancelar sua assinatura a qualquer momento através do painel de controle, sem taxas ou burocracia. Seu acesso premium permanecerá ativo até o final do ciclo de faturamento atual.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Como as recomendações são geradas?</summary>
+                    <p>
+                        Utilizamos um modelo de IA treinado em milhões de resenhas e dados bibliográficos que analisa padrões semânticos, estilos narrativos e tons emocionais para encontrar correspondências profundas com seus gostos.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Posso acessar pelo celular?</summary>
+                    <p>
+                        Sim! Nossa plataforma é totalmente responsiva e oferecemos aplicativos nativos para iOS e Android, permitindo que você gerencie sua estante e leia prévias de qualquer lugar.
+                    </p>
+                </details>
+            </section>
+        </section>
+
+        <section id="cta">
+            <h2>Seu próximo grande livro está esperando por você.</h2>
+            <p>
+                Não deixe mais uma grande história passar despercebida. Comece sua experiência premium hoje mesmo.
+            </p>
+
+            <button type="button" class="botao-verde">Começar minha assinatura</button>
+        </section>
+    </main>
+
+    <footer id="page-footer">
+        <section id="footer-top">
+            <section>
+                <h3>Livro Novo de Novo</h3>
+                <p>
+                    Semeando histórias sustentáveis através da curadoria digital de livros usados.
+                </p>
+
+                <section>
+                    <a href="" style="margin-right: 20px;">
+                        <img src="ícones/globo-terrestre.png" height="20px">
+                    </a>
+
+                    <a href="" style="color: #777777; font-size: 1.8em; text-decoration: none;">@</a>
+                </section>
+            </section>
+
+            <div style="display: flex;">
+                <table>
+                    <tr>
+                        <th>Empresa</th>
+                        <th>Serviços</th>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">Privacidade</a>
+                        </td>
+                        <td>
+                            <a href="">Venda seu livro</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">Termos de Uso</a>
+                        </td>
+                        <td>
+                            <a href="">Assinatura Premium</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <a href="">FAQ</a>
+                        </td>
+                        <td>
+                            <a href="">Doações</a>
+                        </td>
+                    </tr>
+                </table>
+
+                <form action="#" method="post">
+                    <label for="email" style="font-weight: bold;">
+                        Newsletter
+                    </label>
+                    <div style="display: flex; align-items: end;">
+                        <input type="email" name="email" id="email" placeholder="Seu e-mail">
+                        <button type="submit" id="button-submit">
+                            <img src="ícones/seta-direita-preta.png" height="20px">
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section id="footer-bottom">
+            © 2026 Livro Novo de Novo. Semeando histórias sustentáveis.
+        </section>
+    </footer>
+</body>
+</html>
