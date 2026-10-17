@@ -2,7 +2,7 @@
 
 Landing page desenvolvida como projeto final de um curso de HTML e CSS, com o objetivo de praticar a construção e a estilização de interfaces web a partir de uma referência visual.
 
-O projeto apresenta a proposta visual de uma **plataforma fictícia de venda de livros usados**, chamada **Livro Novo de Novo**. A plataforma foi idealizada para este projeto e serve como conceito para a criação da página, não representando um serviço comercial real.
+O projeto apresenta a proposta visual de uma **plataforma fictícia de venda de livros usados**, chamada **Livro Novo de Novo**. A plataforma foi idealizada para este projeto e não representa um serviço comercial real.
 
 🔗 **[Acessar a landing page](https://thiagoono.github.io/projeto-final-landing-page/)**
 
@@ -23,12 +23,6 @@ O conceito visual inclui:
 
 - **HTML5:** estruturação do conteúdo da página.
 - **CSS3:** estilização, composição visual e organização dos elementos.
-
-## 🚀 Como acessar
-
-A landing page está publicada no GitHub Pages e pode ser visualizada diretamente pelo navegador, sem necessidade de instalação.
-
-**[Visitar Livro Novo de Novo](https://thiagoono.github.io/projeto-final-landing-page/)**
 
 ## 🎯 Objetivo do projeto
 
